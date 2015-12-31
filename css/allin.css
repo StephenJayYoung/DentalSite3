@@ -170,7 +170,6 @@ body{
 
 #calls-to-action .heading-block h2 {
 	font-size: 2.5em;
-	font-family: "Lato", sans-serif;
 }
 
 #calls-to-action .heading-block h2 a {
@@ -178,6 +177,7 @@ body{
 
 #calls-to-action .heading-block h2 a:hover, #calls-to-action .heading-block h2 a:active {
 	text-decoration: none;
+	color: #77787b !important;
 }
 
 #calls-to-action .heading-block.center:after {
@@ -223,7 +223,6 @@ section#specials {
 	margin-top: 0;
 	padding-top: 60px;
 	background-color: #FFF !important;
-	color:;
 }
 .pricing-title {
     background-color: #BDD537;
@@ -247,9 +246,9 @@ section#specials {
 
 
 
-#specials h2, #specials .heading-block span {
+/*#specials h2, #specials .heading-block span {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
-}
+}*/
 
 #specials .heading-block span {
 	color: #ffffff;
@@ -483,6 +482,10 @@ section#services {
 	max-width: 100%;
 	height: auto;
 	display: block;
+}
+
+.portfolio-desc h3 a:hover {
+    color: #000000 !important;
 }
 
 .modal-body p a {
