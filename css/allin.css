@@ -35,7 +35,7 @@ h2{
 #primary-menu ul li a {
 	padding: 0 5px;
 	font-family: 'Rufina', serif !important;
-	font-size: 16px !important;
+	font-size: 14.3px !important;
 }
 
 #primary-menu > ul > li.current a {
@@ -642,6 +642,16 @@ address {
 	}
 }
 
+/*Patient Resources*/
+#careCredit {
+	padding-top: 15px;
+	padding-bottom: 5px !important;
+}
+
+#patientForms{
+	padding-top: 70px;
+}
+
 /*FOOTER OVERRIDES*/
 
 footer {
@@ -706,5 +716,5 @@ table {
 
 
 #gotoTop:hover {
-    background-color: #1c62c5 !important;
+    background-color: #BDD537 !important;
 }
