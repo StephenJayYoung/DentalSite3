@@ -314,17 +314,80 @@
 							<h2>Reviews</h2>
 						</div>
 
-					<script type="text/javascript" src="http://birdeye.com/embed/v4/144899234155141/3/1591152180"></script>
+					<div id="oc-testi" class="owl-carousel testimonials-carousel">
 
-					<div id="bf-revz-widget-1591152180" style="-webkit-overflow-scrolling:touch;">
-						<div class="bf-dv">
-							<span class="bf-spn">provided by <a class="bf-pro" href="null" target="_blank">Tyson Steele Associates</a> | powered by <a class="bf-pwr" href="//birdeye.com" target="_blank">BirdEye</a>
-							</span>
+						<div class="oc-item">
+							<div class="testimonial">
+								<div class="testi-image">
+									<a href="#"><img src="images/Reviews/field_Background_graphic/jeff-testimonial.jpg" alt="Customer Testimonails"></a>
+								</div>
+								<div class="testi-content">
+									<p>Fantastic service and really helpful and caring personnel. I was impressed by pleasant atmosphere and the general assistance. They offered me a very effective treatment and I really did feel significant improvement really soon. I followed all the prescriptions and now I feel great. Greatly thankful to all the staff, and I would definitely recommend Allin Family Dentistry to anyone who values quality dental care.</p>
+									<div class="testi-meta">
+										Jeff Blake
+										<span>72 years old</span>
+									</div>
+								</div>
+							</div>
 						</div>
+
+						<div class="oc-item">
+							<div class="testimonial">
+								<div class="testi-image">
+									<a href="#"><img src="images/Reviews/field_Background_graphic/paula-testimonial.jpg" alt="Customer Testimonails"></a>
+								</div>
+								<div class="testi-content">
+									<p>If you are choosing a dentist, Allin Family Dentistry is the one I would recommend. Here you are offered medical treatment of a reliable quality, and a full range of services is offered by a team of professionals. Caring staff, new equipment and helpful therapy – definitely, this is the dental care center of my choice!</p>
+									<div class="testi-meta">
+										Paula McKenzie,
+										<span>39 years old</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="oc-item">
+							<div class="testimonial">
+								<div class="testi-image">
+									<a href="#"><img src="images/Reviews/field_Background_graphic/rebecca-testimonial.jpg" alt="Customer Testimonails"></a>
+								</div>
+								<div class="testi-content">
+									<p>Sajana offered me a very effective treatment and I really did feel significant improvement really soon. Now I feel great. Greatly thankful to all the staff, and I would definitely recommend Allin Family Dentistry. Fantastic service and really helpful and caring personnel. I was impressed by pleasant atmosphere and the general assistance.</p>
+									<div class="testi-meta">
+										Rebecca Martins,
+										<span>29 years old</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
+					<script type="text/javascript">
+
+						jQuery(document).ready(function($) {
+
+							var ocTesti = $("#oc-testi");
+
+							ocTesti.owlCarousel({
+								margin: 20,
+								nav: false,
+								navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+								dots: true,
+								responsive:{
+									0:{ items:1 },
+									768:{ items:2 },
+									992:{ items:3 }
+								}
+							});
+
+						});
+
+					</script>
+
 				</div>	
 				</section>
 				<!-- REVIEWS ENDS -->
+
 
 				<!-- MEMBERS Section -->
 				<section id="members" class="dark page-section">
