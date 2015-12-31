@@ -644,12 +644,17 @@ address {
 
 /*Patient Resources*/
 #careCredit {
-	padding-top: 15px;
-	padding-bottom: 5px !important;
+	padding-top: 25px;
+	padding-bottom: 35px !important;
+}
+
+#payText {
+	padding-top: 10px;
+	padding-bottom: 35px;
 }
 
 #patientForms{
-	padding-top: 70px;
+	padding-top: 80px;
 }
 
 /*FOOTER OVERRIDES*/
