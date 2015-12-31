@@ -31,12 +31,15 @@ h2{
     border-right:none; 
 }
 
+
 #primary-menu ul li a {
 	padding: 0 5px;
+	font-family: 'Rufina', serif !important;
+	font-size: 16px !important;
 }
 
 #primary-menu > ul > li.current a {
-	color: #A5CB4E;
+	color: #BDD537 !important;
 	/*text-decoration: underline !important;*/
 }
 
@@ -48,7 +51,7 @@ h2{
 }
 
 #primary-menu > ul > li a:hover {
-	color: black;
+	color: #BDD537 !important;
 }
 
 #header.full-header #primary-menu > ul {
@@ -63,11 +66,11 @@ h2{
 }
 
 #primary-menu > ul > li.current a:hover{
-    color: #1c62c5 !important;
+    color: #BDD537 !important;
 }
 
 #primary-menu > ul > li a:hover{
-    color: #1c62c5 !important;
+    color: #BDD537 !important;
 }
 
 
@@ -87,7 +90,7 @@ body{
 }
 
 #primary-menu > ul > li a:hover {
-	color: #A5CB4E;
+	color: #BDD537 !important;
 }
 
 #header.full-header #primary-menu > ul {
@@ -100,7 +103,7 @@ body{
 
 @media (max-width: 991px) {
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a {
-    color: #1c62c5 !important;
+    color: #BDD537 !important;
 	}
 }	
 
@@ -151,7 +154,6 @@ body{
 #calls-to-action {
 	padding: 15px 0 30px 0;
 	margin: 0 auto;
-	background-color: #000000;
 	background-color: #BDD537 !important;
 }
 
@@ -387,6 +389,10 @@ section#members {
 	border-bottom: 1px solid #e8e8e8;
 	background-color: #4D787C !important;
   color: #ffffff;
+}
+
+#membershipText{
+	color: #fff !important;
 }
 
 .pricing-box {
