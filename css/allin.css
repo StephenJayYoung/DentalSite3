@@ -118,7 +118,7 @@ body{
 	font-size: 2.5em !important;
 	line-height: 1;
 	margin 0;
-	color: #ffffff !important;
+	color: #858585 !important;
 }
 
 #calls-to-action .heading-block h2 {
@@ -127,7 +127,7 @@ body{
 }
 
 #calls-to-action .heading-block h2 a {
-	color: #ffffff;
+	/*color: #ffffff;*/
 }
 
 #calls-to-action .heading-block h2 a:hover, #calls-to-action .heading-block h2 a:active {
@@ -154,7 +154,8 @@ body{
 #calls-to-action {
 	padding: 15px 0 30px 0;
 	margin: 0 auto;
-	background-color: #BDD537 !important;
+	background-color: #fff !important;
+	color: #858585 !important;
 }
 
 #calls-to-action .heading-block {
@@ -165,7 +166,6 @@ body{
 	font-size: 1.25em;
 	line-height: 1;
 	margin 0;
-	color: #ffffff !important;
 }
 
 #calls-to-action .heading-block h2 {
@@ -174,11 +174,9 @@ body{
 }
 
 #calls-to-action .heading-block h2 a {
-	color: #ffffff;
 }
 
 #calls-to-action .heading-block h2 a:hover, #calls-to-action .heading-block h2 a:active {
-	color: #ffffff !important;
 	text-decoration: none;
 }
 
@@ -228,7 +226,7 @@ section#specials {
 	color:;
 }
 .pricing-title {
-    background-color: #1c62c5;
+    background-color: #BDD537;
 }
 
 .pricing-title h3 {
@@ -244,8 +242,10 @@ section#specials {
 }
 
 #professional-smile-whitening .pricing-title {
-	background-color: #1c62c5 !important;
+	background-color: #BDD537 !important;
 }
+
+
 
 #specials h2, #specials .heading-block span {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
