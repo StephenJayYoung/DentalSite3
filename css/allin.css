@@ -483,6 +483,12 @@ section#services {
 	background-color: #FFF !important;
 }
 
+.close {
+    font-size: 90px;
+    line-height: .3;
+    color: #000000;
+}
+
 .modal-body a {
 	float: right;
 	margin: 0 0 1em 1em;
