@@ -169,7 +169,7 @@ body{
 	color: #000000 !important;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
 	#calls-to-action .heading-block > span:not(.before-heading) {
     font-size: 1.2em;
 	}
