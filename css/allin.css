@@ -236,6 +236,10 @@ section#specials {
     background-color: #BDD537;
 }
 
+/*#specialsHeader {
+	font-weight: 1100px !important;
+}*/
+
 .pricing-title h3 {
 	color: #ffffff;
 }
@@ -402,6 +406,11 @@ section#members {
 	color: #fff !important;
 }
 
+.dark .pricing-box.pricing-extended .pricing-action-area {
+    border-left-color: rgba(255,255,255,0.15);
+    background-color: white;
+}
+
 .pricing-box {
 	border-radius: 1em;
 	color: #ffffff !important;
@@ -416,15 +425,15 @@ section#members {
 }
 
 #membersSign {
-	color: #ffffff !important;
+	color: #1ABC9C !important;
 }
 
 #membersMonth {
-	color: #ffffff !important;
+	color: #1ABC9C !important;
 }
 
 .members-pricing strong {
-	color: #ffffff !important;
+	color: #1ABC9C !important;
 }
 
 .price-tenure {
@@ -433,7 +442,7 @@ section#members {
 }
 
 .dark .pricing-box.pricing-extended .pricing-meta {
-    color: #ffffff !important;
+    color: #1ABC9C !important;
 }
 
 .dark .pricing-box.pricing-extended .pricing-meta {
@@ -456,9 +465,9 @@ section#members {
 }
 
 #members a.button {
-	border-bottom: 3px solid rgba(0,0,0,0.15);
-	background-color: #1c62c5;
-	color: #ffffff;
+	border-bottom: #1ABC9C !important;
+	background-color: #1ABC9C !important;
+	color: #ffffff !important;
 }
 
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover {
