@@ -572,8 +572,33 @@ section#services {
 
 .close {
     font-size: 90px;
-    line-height: .3;
-    color: #000000;
+    line-height: .2;
+    color: #ffffff !important;
+    border-style: solid !important;
+    border-color: #000000 !important;
+   /* margin: 5px !important;*/
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
+    margin-bottom: 10px;
+    border-width: 1.3px !important;
+    background-color: #BDD537 !important;
+    opacity: .99 !important;
+}
+
+
+
+.modal-title {
+    font-size: 25px !important;
+}
+@media (max-width: 480px) {
+.modal-title {
+    font-size: 19px !important;
+}
+}	
+
+
+.modal-header {
+  border-bottom: none !important; 
 }
 
 .modal-body a {
