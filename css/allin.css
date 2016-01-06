@@ -319,6 +319,15 @@ section#specials {
 	padding-top: 60px;
 	background-color: #FFF !important;
 }
+
+.specialsHeader{
+	font-weight: 900 !important;
+	font-size: 33px !important;
+}
+
+.specialsSubtext{
+	font-size: 20px !important;
+}
 .pricing-title {
     background-color: #BDD537;
 }
@@ -583,7 +592,7 @@ section#services {
     padding-bottom: 15px !important;
     margin-bottom: 10px;
     border-width: 1.3px !important;
-    background-color: #BDD537 !important;
+    background-color: #1ABC9C !important;
     opacity: .99 !important;
 	}
 

@@ -10953,7 +10953,7 @@ label.error { display: none !important; }
 	position: relative;
 	display: inline-block;
 	background-color: #FFF;
-	padding-right: 15px;
+/*	padding-right: 15px;*/
 	margin-bottom: 0;
 }
 
