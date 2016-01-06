@@ -570,6 +570,8 @@ section#services {
 	background-color: #FFF !important;
 }
 
+@media (max-width: 480px) {
+
 .close {
     font-size: 90px;
     line-height: .2;
@@ -583,23 +585,17 @@ section#services {
     border-width: 1.3px !important;
     background-color: #BDD537 !important;
     opacity: .99 !important;
-}
+	}
 
-
-
-.modal-title {
-    font-size: 25px !important;
-}
-@media (max-width: 480px) {
-.modal-title {
-    font-size: 19px !important;
-}
-}	
-
-
-.modal-header {
+	.modal-header {
   border-bottom: none !important; 
 }
+
+.modal-title {
+    font-size: 19px !important;
+	}
+}	
+
 
 .modal-body a {
 	float: right;
