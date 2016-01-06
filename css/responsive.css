@@ -1433,13 +1433,15 @@
 
 @media (max-width: 767px) {
 
-	body { padding: 0 !important; }
+	body { padding: 0 !important; overflow-x: none !important }
 
 	#wrapper { width: 100% !important; }
 
 	.container-fullwidth {
-		margin: 0 auto;
-		padding: 0 15px !important;
+		margin: 0 auto 0 auto !important;
+		padding: 0  !important;
+		/*padding: 0 15px !important;*/
+		overflow-x: none !important;
 	}
 
 	h1 { font-size: 28px; }

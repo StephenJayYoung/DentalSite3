@@ -12207,6 +12207,7 @@ label.checkbox { padding-left: 20px; }
 	width: 100%;
 	margin: 0;
 	box-shadow: none;
+	overflow-x: hidden;
 }
 
 
