@@ -121,8 +121,8 @@ body{
 #calls-to-action .heading-block > span:not(.before-heading) {
 	font-size: 2.5em !important;
 	line-height: 1;
+	color: #000000 !important;
 	margin 0;
-	color: #858585 !important;
 	font-family: 'Sintony', sans-serif !important;
 }
 
@@ -139,7 +139,7 @@ body{
 }
 
 #calls-to-action .heading-block h2 a:hover, #calls-to-action .heading-block h2 a:active {
-	color: #ffffff !important;
+	color: #000000 !important;
 	text-decoration: none;
 }
 
@@ -154,13 +154,27 @@ body{
 
 }
 
+#calls-to-action .heading-block.center:after {
+	margin: 0;
+	display: none;
+}
+
+#calls-to-action .button {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #1c62c5;
+	color: #ffffff;
+	margin: 3px 3px 11px 17px;
+	font-size: 13px;
+}
+
 @media (max-width: 780px) {
 
 	#calls-to-action .heading-block > span:not(.before-heading) {
 		font-size: 1.5em !important;
 		line-height: 1;
 		margin 0;
-		color: #858585 !important;
+		color: #000000 !important;
 		font-family: 'Sintony', sans-serif !important;
 	}
 
@@ -195,35 +209,6 @@ body{
 		font-size: 15px;
 	}
 
-}
-
-
-#calls-to-action .heading-block > span:not(.before-heading) {
-	font-size: 1.25em;
-	line-height: 1;
-	margin 0;
-	color: #000000 !important;
-	font-family: 'Sintony', sans-serif !important;
-
-}
-
-#calls-to-action .heading-block h2 a:hover, #calls-to-action .heading-block h2 a:active {
-	text-decoration: none;
-	color: #000000 !important;
-}
-
-#calls-to-action .heading-block.center:after {
-	margin: 0;
-	display: none;
-}
-
-#calls-to-action .button {
-	margin: 0 auto;
-	text-align: center;
-	background-color: #1c62c5;
-	color: #ffffff;
-	margin: 3px 3px 11px 17px;
-	font-size: 13px;
 }
 
 @media (max-width: 480px) {
