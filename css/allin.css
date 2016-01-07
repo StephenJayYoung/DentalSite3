@@ -154,11 +154,6 @@ body{
 
 }
 
-#calls-to-action .heading-block.center:after {
-	margin: 0;
-	display: none;
-}
-
 #calls-to-action .button {
 	margin: 0 auto;
 	text-align: center;
